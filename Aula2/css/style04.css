@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(127, 204, 255);
+    justify-items: center;
+}
+
+.ex1 {
+    background-color: rgb(217, 247, 247);
+    width: 500px;
+}
+
+.ex2 {
+    background-color: rgb(212, 151, 214);
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
