@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(205, 247, 233);
+}
+
+.ex1 {
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: rgb(202, 147, 147);
+    outline-offset: 5px;
+    width: 400px;
+    margin: 10px auto;
+    border: 3px solid black;
+    background-color: rgb(202, 147, 147)
+}
