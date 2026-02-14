@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(185, 216, 206);
+}
+
+a:link {
+    color: black;
+    background-color: rgb(125, 125, 207);
+}
+
+.a:visited {
+    color: cyan;
+    background-color: red;
+}
+
+a:houver {
+    color: deeppink;
+    background-color: white;
+}
+
+a:active {
+    color: chartreuse;
+    background-color: black;
+}
+
+a {
+    cursor: url('../img/cursor.png'), auto;
+}
+
+.pinterest:link, .pinterest:visited {
+    cursor: url('../img/cursor1.png'), auto;
+    background-color: transparent;
+    border: 3px solid;
+    color: rgb(209, 50, 103);
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display:inline-block;
+}
+
+.pinterest:hover, .pinterest:active {
+    background-color: rgb(169, 138, 197);
+    color: white;
+}
