@@ -1,0 +1,135 @@
+body {
+    background-color: #cd9fd3;
+    color: white;
+}
+
+/* Exemplo de align-items: center */
+
+.ex1 {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: #c3bfc4;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #49bd75;
+    color: brown;
+}
+
+/* Exemplo de align-items: flex-start */
+
+.ex2 {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #c3bfc4;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #3bb399;
+    color: brown;
+}
+
+/* Exemplo de align-items: flex-end */
+
+.ex3 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: #531d61;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #c3bfc4;
+    color: brown;
+}
+
+/* Exemplo de align-items: stretch */
+
+.ex4 {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: #6daaa7;
+}
+
+.ex4 div {
+    width: 100px;
+    text-align: center;
+    background-color: #ac2acc;
+    color: brown;
+}
+
+/* Exemplo de align-content: center */
+
+.ex5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    gap: 30px;
+    background-color: #c3bfc4;
+}   
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #b77cc5;
+    color: brown;
+}
+
+/* Exemplo de align-content: space-between */
+
+.ex6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    gap: 30px;
+    background-color: #503d96;
+}   
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #b77cc5;
+    color: rgb(134, 39, 39);
+}
+
+/* Exemplo de align-content: center; e justify-content: center; */
+
+.ex7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    /* justify-content - vai alinhar no eixo y - justify-content alinha no eixo X */
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    background-color: #c3bfc4;
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: #b77cc5;
+    color: rgb(134, 39, 39);
+}
