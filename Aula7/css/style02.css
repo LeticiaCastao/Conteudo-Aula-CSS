@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(184, 161, 206);
+}
+
+/* Exemplo de align-content: center */
+
+.ex1 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: white;
+    align-content: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 175, 163);
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space-evenly; */
+
+.ex2 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: rgb(255, 255, 255);
+    align-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 175, 163);
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space-around; */
+/* Espaçamento esta sendo definido no entorno */
+
+.ex3 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: rgb(255, 255, 255);
+    align-content: space-around;
+    gap: 0 10px;
+    justify-content: center;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 71, 58);
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space-between; */
+
+.ex4 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: rgb(255, 255, 255);
+    align-content: space-between;
+    gap: 0 10px;
+    justify-content: center;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 71, 58);
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: start; */
+
+.ex5 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: rgb(255, 255, 255);
+    align-content: start;
+    gap: 10px 10px;
+    justify-content: center;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 71, 58);
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: start; */
+
+.ex6 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: rgb(202, 106, 106);
+    color: rgb(255, 255, 255);
+    align-content: start;
+    gap: 10px 10px;
+    justify-content: center;
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 71, 58);
+    text-align: center;
+    align-content: center;
+}
